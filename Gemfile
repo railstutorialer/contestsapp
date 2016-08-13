@@ -12,6 +12,17 @@ end
 
 group :development, :test do
   gem 'sqlite3', '1.3.9'
+
+  gem 'better_errors', '1.1.0'
+  gem 'binding_of_caller', '0.7.2'
+
+  gem 'rspec-rails', '2.14.2'
+  gem 'factory_girl_rails', '4.4.1'
+  gem 'capybara', '2.2.1'
+  gem 'fakeweb', '1.3.0'
+
+  gem 'guard', '2.6.1'
+  gem 'guard-rspec', '4.2.9'
 end
 
 # Use SCSS for stylesheets
